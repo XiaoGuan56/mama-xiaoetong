@@ -1,0 +1,297 @@
+/* -------------------------扫码登录页------------------------- */
+.login-xiaoe-wechat-text:after {
+    content: '晖哥讲编程  ©码码教育';
+}
+.login-xiaoe-wechat-text p {
+    display: none !important;
+}
+.login-tab-item.tab-active {
+    margin: auto !important;
+}
+
+
+/* -------------------------直播页------------------------- */
+
+
+/* 视频播放页-直播课-样式 */
+body[mama] .discussionArea {
+    width: 85px;
+    position: relative;
+    opacity: 0.85;
+    margin: 4px 0px 4px 20px;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 25px;
+    border-radius: 3px;
+    color: black;
+    cursor: pointer;
+    font-size: 13px;
+    border: 1px solid silver;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.2s ease 0s;
+}
+
+body[mama] .outWrapper {
+    background-color: #1E1E24 !important;
+    max-width: calc(100% - 470px);
+    margin: 0 !important;
+}
+body[mama] .interactionView {
+    border-left: 1px solid #1E1E24;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: calc(100% - 470px) !important;
+    bottom: 0 !important;
+    background-color: #f5f5f5 !important;
+    z-index: 10;
+}
+body[mama] .OperationSheet{
+    position: fixed !important;
+    right: 0 !important;
+    left: calc(100% - 470px) !important;
+    bottom: 0 !important;
+    z-index: 10;
+}
+body[mama] .arrow{
+    display: none;
+}
+body[mama] .videoContainer{
+    min-height: auto !important;
+}
+body[mama] .corverModule, body[mama] .video_img_wrapper{
+    position: inherit !important;
+    height: auto !important;
+}
+body[mama] .video_img_wrapper img{
+    width: 100% !important;
+    height: auto !important;
+    max-height: calc(100vh - 125px);
+}
+body[mama] .videoAreaView{
+    margin: auto !important;
+}
+body[mama] .playerModule{
+    height: auto;
+    max-height: calc(100vh - 46px);
+}
+body[mama] .DiscussSheet{
+    height: 100% !important;
+    border-radius: 0px !important;
+}
+body[mama] .video-player-wrapper, .video_out_wrapper, .video_wrapper, .custom_video_player_10001{
+    max-width: 100% !important;
+    max-height: calc(100vh - 46px) !important;
+}
+body[mama] .custom_video_player_10001 video {
+    height: auto !important;
+    max-height: calc(100vh - 46px) !important;
+}
+body[mama] .posterWrap {
+    height: auto !important;
+    max-height: calc(100vh - 46px) !important;
+}
+body[mama] #videoWrapper {
+    height: auto !important;
+    max-height: calc(100vh - 46px) !important;
+}
+body[mama] .custom_video_player_10001 {
+    max-height: calc(100vh - 46px) !important;
+}
+body[mama] .van-overlay {
+    display: none !important;
+}
+body[mama] .tab-zone-container{
+    display: none !important;
+}
+
+/* 视频播放页-视频课-样式 */
+body[mama=video] .page-layout {
+    background-color: #1E1E24 !important;
+    max-width: 100% !important;
+}
+body[mama=video] .publicTop .x-home img {
+    border-radius: 0 !important;
+}
+body[mama=video] .public-top {
+    background-color: #16161A !important;
+}
+body[mama=video] .public-top-icon {
+    border: none !important;
+}
+body[mama=video] .x-title {
+    color: #ccc !important;
+    font-weight: bolder !important;
+    text-overflow: unset !important;
+    max-width: 100% !important;
+    font-size: 24px !important;
+}
+body[mama=video] .public-top .course-home {
+    display: none;
+    float: right;
+    font-size: 18px;
+    line-height: 60px;
+}
+body[mama=video] .public-top .course-home .icon-home {
+    width: 24px;
+    margin-top: 18px;
+    display: block;
+    float: left;
+    margin-right: 5px;
+}
+body[mama=video] .public-top .course-home a,
+body[mama=video] .public-top .course-home a:active,
+body[mama=video] .public-top .course-home a:visited {
+    color: #ddd;
+}
+body[mama=video] .public-top .course-home a:hover {
+    color: #f4f4f4;
+}
+body[mama=video] .video-header-wrapper {
+    position: fixed !important;
+    left: 0 !important;
+    top: 100px;
+    width: 100%;
+}
+body[mama=video] .video-player-wrapper, .video_out_wrapper, .video_wrapper, .custom_video_player_10001, .normal_video_wrap_1001 {
+    height: 0 !important;
+    padding-bottom: 57% !important;
+    max-width: 100% !important;
+}
+body[mama=video] .custom_video_player_10001 video {
+    height: auto !important;
+}
+body[mama=video] .control-bar-wrapper {
+    position: fixed !important;
+    top: 60px !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 40px !important;
+    background-color: #1B1D23 !important;
+    padding: 0 20px !important;
+}
+body[mama=video] .detailHeadData {
+    position: absolute !important;
+    top: -31px !important;
+    margin-top: 0 !important;
+    line-height: 22px !important;
+    color: #fff !important;
+    z-index: 1 !important;
+    padding-left: 20px;
+}
+body[mama=video] .setting-item {
+    height: 22px !important;
+    border-radius: 11px !important;
+    color: #666 !important;
+    font-size: 12px !important;
+    font-weight: 400;
+    box-sizing: border-box;
+    width: 40px !important;
+    border: 1px solid #999 !important;
+    line-height: 22px !important;
+    background: none !important;
+    padding: 0 !important;
+}
+body[mama=video] .section-header {
+    background: none !important;
+}
+body[mama=video] .video-header-detail-data .container {
+    padding: 0 !important;
+}
+body[mama=video] .detail_wrap {
+    display: none;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    left: 80% !important;
+    bottom: 0 !important;
+    background-color: #282C34 !important;
+    z-index: 10;
+}
+body[mama=video] .detail_wrap::before {
+    display: block;
+    height: 60px;
+    content: '详情';
+    background-color: #21252B;
+    padding-left: 10px;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #ccc !important;
+}
+body[mama=video] .course-panel.panel-bottom {
+    min-height: 0 !important;
+}
+body[mama=video] .player-setting div:first-child,
+body[mama=video] .player-setting span:nth-child(2),
+body[mama=video] .video-header-detail-data .container .detail-title,
+body[mama=video] .section-actions,
+body[mama=video] .section-content .tabs,
+body[mama=video] .x-menu {
+    display: none !important;
+}
+
+
+
+/* -------------------------作业页------------------------- */
+.dropload-container {
+    margin: 10px 0;
+}
+.exercise-wrapper {
+    margin: 0 10px;
+}
+.exercise-wrapper:hover {
+    cursor: pointer;
+    background-color: #f4f4f4 !important;
+}
+.submit-exercise:hover {
+    cursor: pointer;
+    background-color: #1783C6 !important;
+}
+.submit-btn {
+    background-color: #1ea5fa !important;
+}
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: #1783C6 !important;
+}
+.exercise-detail-container .white-bg {
+    background: none !important;
+    border: none !important;
+}
+.exercise-publish-container .image-text-show-wrapper-patch {
+    border-radius: 0 !important;
+}
+.exercise-publish-container .text-container {
+    border-radius: 0 !important;
+}
+.exercise-publish-container .low-height {
+    min-height: 200px !important;
+}
+.exercise-publish-container .cover:hover {
+    cursor: pointer;
+}
+.exercise-publish-container .cover-misk {
+    bottom: 44px !important;
+}
+.exercise-publish-container .title-edit {
+    display: none !important;
+}
+
+
+
+/* -------------------------通用样式------------------------- */
+.last-page, .btn-menu {
+    display: none !important;
+}
+
+.brand_exposed, .ss-footer {
+    display: none !important;
+}
+
+::-webkit-scrollbar {
+    width: 6px !important;
+}

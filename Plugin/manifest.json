@@ -1,0 +1,17 @@
+{
+  "name": "码码教育",
+  "version": "1.3",
+  "description": "码码教育PC版插件",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "icon.png" ,
+    "default_title": "Mama"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*.h5.xiaoeknow.com/*", "https://*.h5.xiaoeknow.com/*", "https://*.xiaoeknow.com/*"],
+      "css": ["css/mama.css"],
+      "js": ["js/jquery.min.js","js/jquery.base64.js","js/action.js"]
+    }
+  ]
+}
